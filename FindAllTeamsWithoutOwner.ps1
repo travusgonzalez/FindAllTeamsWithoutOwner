@@ -23,6 +23,6 @@ foreach($team in $listOfTeams)
 if($listOfTeamsWithNoOwner.Length -ne 0)
 {
     Write-Output 'Exporting report...'
-    $listOfTeamsWithNoOwner | Export-Csv -Path 'C:\Dev\TeamsIssue\report.csv'
+    $listOfTeamsWithNoOwner | Export-Csv -Path 'C:\report.csv'
     Write-Output 'Done!'
 }
